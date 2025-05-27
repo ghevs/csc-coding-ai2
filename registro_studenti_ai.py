@@ -89,7 +89,18 @@ def stampa_studenti(studenti: List[Dict]):
 
 
 def esegui_processo(percorso_file: str):
+    """
+    Main function that reads students from the file and displays them on screen.
     
+    Args:
+        percorso_file: Complete path of the data file
+        
+    Note:
+        - This function combines two operations:
+          1. Reading data from file
+          2. Displaying the data
+        - It's an example of function composition: a function that uses others
+    """
     studenti = leggi_studenti_da_file(percorso_file)  # First reads the data
     stampa_studenti(studenti)  # Then displays it
 
