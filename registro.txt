@@ -1,0 +1,60 @@
+[
+  {
+    "matricola": "12",
+    "nome": "Luca",
+    "cognome": "Rossi",
+    "voti": [
+      26
+    ]
+  },
+  {
+    "matricola": "23",
+    "nome": "Mario",
+    "cognome": "Bianchi",
+    "voti": [
+      25
+    ]
+  },
+  {
+    "matricola": "36",
+    "nome": "Giovanna",
+    "cognome": "Rossellini",
+    "voti": [
+      27,
+      20,
+      21
+    ]
+  },
+  {
+    "matricola": "72",
+    "nome": "Roberta",
+    "cognome": "Pari",
+    "voti": [
+      22,
+      24,
+      26,
+      30,
+      26
+    ]
+  },
+  {
+    "matricola": "53",
+    "nome": "Marina Repetto",
+    "cognome": "",
+    "voti": [
+      25,
+      26,
+      74
+    ]
+  },
+  {
+    "matricola": "33",
+    "nome": "Nunzio",
+    "cognome": "Scevola",
+    "voti": [
+      22,
+      20,
+      27
+    ]
+  }
+]
