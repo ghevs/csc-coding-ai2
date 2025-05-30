@@ -1,22 +1,9 @@
-"""
-Student Registry - Management system for university students
-===========================================================
-This program implements a simple electronic registry that allows to:
-- View the list of students with their grade averages
-- Add new students
-- Add grades to existing students
 
-Data is saved in JSON format in a text file.
-"""
 
 import os  # Module to interact with the operating system
 import json  # Module to work with data in JSON format (JavaScript Object Notation)
 from typing import List, Dict  # Type annotations to improve code readability
 
-# Data file path configuration
-# ---------------------------------------
-# Gets the absolute path of the 'registro.txt' file in the same folder as the script
-# __file__ is a special variable that contains the path of the current file
 main_dir = os.path.dirname(__file__)  # Gets the directory containing the script
 file_path = os.path.join(main_dir, 'registro.txt')  # Composes the complete file path
 
